@@ -1,0 +1,14 @@
+{
+  "name": "ls",
+  "version": "1.0.0",
+  "description": "Documentation of slider",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dr. Takeyuki UEDA",
+  "license": "ISC",
+  "devDependencies": {
+    "vuepress": "^1.0.0-rc.1"
+  }
+}
