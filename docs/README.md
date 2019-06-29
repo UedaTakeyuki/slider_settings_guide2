@@ -48,7 +48,7 @@ Set Power supply micro USB cable.
 
 ### LED Indicators on the device
 
-Red and Green LED shoud be blinking. Red LED indicate power consumption, and Green indicate reading/writing to the SD card.
+Red and Green LED shoud be blinking. Red LED indicate power consumption, and Green indicate reading/writing to the SD card.  
 <img src="./pic/ss.2017-10-30 12.45.43.png" width="50%">
 
 Because of Green indicate SD card access, it **must blink so busy** during system boot up, or **the SD card can't be accessed** from device due to **insufficient injection of the SD card**.  
