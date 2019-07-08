@@ -1,5 +1,5 @@
 ## Introduction
-This document introduce the step of how to start the SLIDER, a IoT remote sensing device developed at Atelier UEDA.
+This document introduces the step of how to start the SLIDER, an IoT remote sensing device developed at Atelier UEDA.
 
 ## Put 3G Dongle on the device
 ### ZTE-MF190 dongle
@@ -24,13 +24,13 @@ Set 3G dongle on the USB port of the device.
 <img src="./pic/ss.2017-10-30 12.44.26.png" width="25%">
 
 ### Orange/Sonatel SIM Card
-The software on the SD Card is preset for general **Orange/Sonatel** SIM card with following parameter.
+The software on the SD Card is preset for general **Orange/Sonatel** SIM card with the following parameter.
 
 - APN = internet
 - Username = internet
 - Password = internet
 
-You **must** use SIM CARD with above parameters, or Network connection must NOT be start.
+You **must** use SIM CARD with the above parameters, or Network connection must NOT be started.
 
 
 ## Put SD Card on the device
@@ -51,7 +51,7 @@ Set Power supply micro USB cable.
 Red and Green LED shoud be blinking. Red LED indicate power consumption, and Green indicate reading/writing to the SD card.  
 <img src="./pic/ss.2017-10-30 12.45.43.png" width="50%">
 
-Because of Green indicate SD card access, it **must blink so busy** during system boot up, or **the SD card can't be accessed** from device due to **insufficient injection of the SD card**.  
+Because of Green indicate SD card access, it **must blink so busy** during system boot-up, or **the SD card can't be accessed** from the device due to **insufficient injection of the SD card**.  
 
 In these case, once remove power supply micro USB cable, then push SD Card in again, and power supply micro USB cable again. 
 
@@ -65,11 +65,11 @@ Red LED on the dongle indicate that power is supplied to it.
 <img src="./pic/ss.2019-06-29 15.09.30.png" width="25%">  
 If LED is not turn on, it might be there are some trouble on the dongle.
 
-Then soon LED turn on Green when dongle recognize there SIM card.   
+Then soon LED turns on Green when dongle recognizes there SIM card.   
 <img src="./pic/ss.2019-06-28 22.13.34.png" width="25%">  
-If LED is not turn on Green, it might be there are some trouble on the SIM CARD.  
+If LED is not turn on Green, it might be there is some trouble with the SIM CARD.  
   
-Finally, it must be **blink** Green when network communication is started. If not, it must be that Operators network not reach to here, Operators account is not opend, or parameters of SIM CARD is not match with [expected](#orange-sonatel-sim-card).
+Finally, it must be **blink** Green when network communication is started. If not, it must be that Operators network does not reach here, Operators account is not opened, or parameters of SIM CARD is not matched with [expected](#orange-sonatel-sim-card).
 
 ## Q&A, issue report, feature request...
 A forum for Q&A, issue report, feature request are available as follows:
